@@ -1,0 +1,9 @@
+pymupdf
+pymupdf4llm
+pillow
+pytesseract
+docling
+docling[rapidocr]
+
+numpy
+opencv-python
