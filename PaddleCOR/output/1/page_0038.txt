@@ -1,0 +1,66 @@
+合，法例第11条の規定により日本の不法行為法に準拠することとなろう。
+Public Law 85-602
+法例第11条の規定は次の通り。
+85th Congress, S. 4165
+「事務管理，不当利得または不法行為に因りて生ずる債権の成立および効力はその原因たる事実の
+August 8, 1958
+発生したる地の法律による」
+ROANA
+したがって船舶所有者に免債委付を認める商法第690条も適用されよう。加害船主はこの法文に
+To amend the Atomic Energy Act of 1954, as amended.
+より残存船価委付主義より責任制限（Limitationofliability）の恩典主張出来る。被害者は十
+Be it enacted by the Senate and House of Representatives of the United States of Ame-
+分な救済を受け得ないおそれが生ずる。
+rica in Congress assembled, That section 1lo. of the Atomic Energy Act of 1954, as ame-
+加うるに,商法第690条の船主責任制限規定は民法第709条および第715条における不法行為法
+nded, is amended by substituting a colon for the period at the end thereof and addingthe
+の特則であるが，船長等乗組員の過失に起因する事故についての船主責任に関する規定である。
+following:"Provided,however, That as the term is used in subsection 17o 1.,it shall mean
+船長等乗組員が無過失である場合の原子力事故（触雷，飛行機堕落等）については，日本の民商
+any such occurrence outside of the United States rather than within the United States.
+法に無過失主義の特則もなく，船主責任は発生しないであろう。
+このような事態を避けるためには，法例第11条の適用を避ける必要があろう。
+Sec.2.Section 170of the Atomic Energy Act of 1954,as amended,is amended by adding
+そのためには条約が締結されて，その条約が優先すべきであろう。
+at the and thereof the following new subsections:
+5.5 米国国内立法に際しての問題点
+米国内の陸上原子炉についは，1957年秋Price-Anderson法が成立し，1954年米国原子力法
+"I.The Commission is authorized until August 1,1967, to enter into an agreementof
+に災害補償（Financial Protection）に関る諸規定が追加れ。すなわち陸上原子炉のOwner-
+indemnification with any person engaged in the design,develpoment,construction,opration,
+Operatorは原子炉設置のLicense付与の条件として6,000万ド迄の民間責任保険（1原子炉に
+repair,and maintenance or use of the nuclear-powered ship authorized by section 716 of the
+付),5億ドルの国家保証（1原子力事故に付）を成約していることを強制されている。このPrice-
+Merchant Marine Act, 1936,and designated thenuclear ship Savannah'.In any such agre-
+Anderon法が討議中であっ際，原子力事故の被害者の補償を6,000万ドル,プラス,5億ドル
+ement of indemnification the Commission may require such person to provide and maintain
+financial protection of such a type and in such amounts as the Commission shall determine
+で打切ること,すなわち責任制限を認めることの可否如何，すなわちこの法案の合憲性如何も問題
+to be appropriate to cover public liability arising froma nuclear incident in connection with such
+とされたようである。
+5億ドルは邦貨1800億円に相当するが，米国国会における原子力専門家の参考答弁によれば
+design, development, construction,operation, repair, maintenance or use and shall indem-
+原子力事故の被害の理論的な最高額は20億ドル（邦貨7.200億円）程度であろう。
+nify the person indemnified against such claims above the amount of the financial protec-
+tion required, in the maximum amount provided by subsection e. including the reasonable
+したがって原子力船の事故が米国領海外で発生し,他国民に被害を与える事態に対しあらかじ
+costs of investigating and settling claims and defeding suits for damage.
+め米国内の特別立法のみによって１原子力事故についての責任を制限することは難しい。
+1958年8月8日付の1954年米国原子力法改正法は,陸上原子炉についての害補償規定を米国
+Sec.2.Section 170e.of the Atomic Energy act of1954,as amended, by is amended deleting
+領海外に拡張するような構想を採用し，これによりサバナ号に関する特別立法が成立した。
+the second sentence thereof and inserting in lieu thereof the following:"The Commission
+しかしこの改正法施行に先立って条約が責任制限を認めていなければなるまい。従って条約草案
+or any person indemnified may apply to the appropriate district court of the United States
+はウィ一ンの国際原子力機関によって1960年に起草されるとととなるであろう。米国はこの条約作
+having venue in bankruptcy matters over the location of the nuclear incident, except that
+成に積極的であろう。
+in the case of nuclear incidents caused dy ships of United States outside of the United
+Price-Andrson法の災害補償規定を米国領海外におけるサバナ号の事故についの船主まは
+States, the Commission or any person indemnified may apply to the appropriate district
+運航者の賠償責任にも適用するための米国原子力法改正法の全文は次の通りである。
+court of United States having venue in bankruptcy matters over the location of the prin-
+cipal place of business of the shipping company owning or operating the ship, and upon a
+showing that the public liability from a single nuclear incident will probably exceed the
+-65-
+64

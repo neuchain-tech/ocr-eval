@@ -1,0 +1,162 @@
+ 
+Y
+COOLING COILS
+GATE VALVE
+PRESSURIZER
+SEA WATER PUMPS
+TURUNEAND
+LETDOWN COCLERS
+TURSO-SEREAATORS
+cOTAE COOLING COILS
+一4
+PRMARY DUNPS
+CONTROL
+PUMP5
+SURGE
+G
+FRESH WATER PUMPS
+aMGdSnNECAH
+FOOH
+TANA
+AMOINNRE
+SAGi
+COOLERS
+S7000A5
+2
+83nioe
+2
+EERE ERE
+,
+Son035
+INTERMEDIATE
+INTERME DLATE
+果
+SEATE HEEE
+HEAT EXCHANGER
+METURR WATER
+COOLINDWATER
+S
+5
+REACTOA
+果
+17-8
+4-8\
+3100
+L
+FROM
+MANE-UP
+3-9
+DISTILLED
+5
+8
+WATER-
+Sdwnd
+REACTOR OUTLET
+METAL SHIELDING
+MAXE-UP
+9:21
+SURGE LINE
+TANS
+Se amead
+RERREERE
+出
+
+e
+SWTANK
+REACTOR INLET
+PORTABLE
+
+-5
+CONNECTIONS
+字
+15.5\f00
+中
+河
+8
+8
+网
+品
+INTERMEOIATE
+Sewne And
+REACTOR
+CODLINGWATER
+GATE VALVE
+TATRA ZAR
+42
+REACTOR INLET
+
+LET DOWN
+COOLERS
+INSTRUMENT THIMBLES
+SEAAEE EAE
+C
+3
+TEOAAEEE SRE
+SHIELD WATERTANK
+aUFFER
+80
+0-8
+CHECK VALVES-
+含
+2
+SEAL
+SUROE
+STEAM DRUM
+TAMK
+品
+SBNHORE NOI
+金
+EFFLUENT
+FILTERS
+CHARGE PURPS
+8
+0
+PUMPS
+？
+
+X
+GATE VALVE
+第1.7図一次系流路線図
+第1.8図コンテーナ内配置図
+1.3.3蒸気発生器
+1.3.1一次系管系
+蒸気発生器は第1.9図に示すように，全長約20呎のU型胴および外径3/4吋の不銹鋼製Uチ
+ーブ800本とからなる水ドラムと，上昇，下降両管および蒸気ドラムから構成されており蒸気ド
+第1.7図に一次系の流路線図を示す。この流路線図において-C一の線によって囲まれた機器，原
+ラムにはサイクロン・セパレーターとスクラッバとが設けられている。
+子炉，蒸気発生器等はコンテーナ内におさめられている。この系は夫々蒸気発生器１基，クーラン
+伝熱面積は1基あたり約292m²
+トポンプ２台からなる２つの回路からなり，いづれも常時使用される。
+TEA WLT
+即ち航海中ポンは全4台駆動し，流量及び温度夫々一定値80000001b/hr，508°Fに保
+で,2基で74MWの熱量を伝達す
+ることが可能であるが，１基停止し
+C
+場合も約16,500SHPの出力で航
+またクーラントの作動圧力は1,750psiである。
+4台のクーラントポンプはいづれもキャンド・タイプで速度は全速と半速の２段式で，出力250
+行することが出来る。
+伝熱面の熱伝達率は発表された数
+KW，流量5,000gpm(495°Fにて）水頭70psiである。
+値から逆算した結果約3900Kcal
+一次系の主管は内径12-9/16吋，分岐管は8-9/16吋で,いづれも304不鏽鋼の中空鍛造製で計画
+/m²h℃であった。これは計算値と
+圧力は2,000psiである。又,コンテ一ナ内の機器の配置図を第1.8図に示す。
+3128##
+比較するとあまり余裕がない。
+1.3.2压力容器
+2次系の計画圧力は800pi,で
+圧力容器は第1.3図に示されているように高さ26.5呎，内径98吋，肉厚6吋のSA212炭素鋼製
+出力74MWのとき2次系の蒸気圧
+で，内壁に304不銹鋼が内張りされている。計画圧力，温度は2,000psi，650°Fである。但しこの
+力は 455psia である。
+場合SA212 では ASME-CODE或いは AB によるとやや肉厚が不足するようである。
+クーラントの平均温度が常に508
+PRIALE
+容器の蓋はフランヂで取付けられ，48本の5吋のスタッドと2重ガスケットにより締付けられ
+第1.9図蒸気発生器
+Fに保たれているため，２次系の
+0
+る。フランヂ間はシール溶接を行う。また蓋には制御棒駆動装置が設けられている。
+-85-
+-84-

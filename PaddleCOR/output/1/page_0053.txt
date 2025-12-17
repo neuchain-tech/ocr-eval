@@ -1,0 +1,71 @@
+レコンテーナ内に入る場合は，コンテーナ内の空気とも，高性能のフイルターを通してマストから
+(i）船体は２区浸水まで耐えられる。
+(ii）原子炉室はダブハルとし衝撃を緩和する層を置く。
+排出する。
+（ii）コンテナ一の外側と船側外板との距離は0.275Bある。
+コンテーナ内のドレンはドレンタンクに集められる。又一次系の使用済のイオン交換樹脂のため
+更にコンテーナの両側にはコリジョンマットを設け保護している。
+には，特別の廃棄施設が設けられている。
+(iv）コンテーナには深海に沈没した場合外圧により破壊しないよう安全弁を設けてある。ま
+1.9安全性
+た船体転覆の際も船体がコンテナ一を支持し得るような支持構造になっている。
+以上サバナ号について紹介したが最後に安全性について考慮されている事項を取りまとめてみる
+(V）衝突等の衝撃で一次系が破損しても，コンテ一ナ外に放射性物質をまき散らさない。
+と次の通りである。
+(vi）海難により一次系ポンプや安全回路への電源を切断されたり制御機構駆動動力が停止し
+(1) 原子炉の安全
+たりしても原子炉は自動的にスクラムされる。
+原子炉系の安全性については，全般に余裕をもって計画されていることによって，十分確保
+されているわけであるが,原子炉のスクラムは次の7つの原因のいずれかつによって自動的に
+参考文献
+組まれる。
+(1) The Nuclear Powered Passenger-Cargo Ship, Douglas C.MacMillan, Nuclear Powered
+(i）10％以下の出力で原子炉時間が短かくなった場合
+Ships for American Ship Operators July 30,1957 TID7539.
+(ii)出力過大
+(2) Design of First Merchant Ship Nuclear Propulsion Plant,R.P. Grimes,前同
+(iii)
+一次系圧力の大巾な低下
+(3) Design of the Power Plant for the First Nuclear Merchant Ship,R. L. Whitelaw,
+( iv )
+原子炉出口温度の著し上昇
+Nuclear Engineering & Science Conference at Chicago,Preprint 69.
+(△)
+一次系ポンプへの電源切断
+(4)
+Reactor Physics and Core Design of the Merchant Ship Reactor,P.M.Wood andZ:
+(vi）安全回路への送電停止
+Levine,前 同,Reprint 96.
+(vii)制御機構駆動力の停止
+(5)
+The Power Plant for the First Nuclear Merchant Ship (N.S.SAVANNAH),John W.
+(2)放射線管理
+Landis,Proceedings of 1958 Nuclear Merchant Ship Symposium.
+(ì）原子炉内外の放射能を測定して故障の発見や警報を出す。
+(9)
+Design Considerations in Nuclear Merchant Ships,R.P. Godwin and D.L. Worf.
+(ii）放射線管理区域の設定
+A/CONF 15/P/1023
+乗客に対して許容放射線レべルは0.5γ/yr整組員に対し5γ/yrをとる
+(7)
+The Use of Nuclear Energy for Purposes other than the Generation of Electricity,
+（i）２次遮蔽外部のレべルが許容量以上になれば炉を停止し非常用動力を使用する。
+W.H.Zinn and R,P.Godwin,A/CONF.15/P/1931.
+(3) 非常用動力等
+(8)
+Simulation ofVarious Accident Considerations for a Merchant-Ship Pressurized-Water
+(i）ディ一ゼル駆動の帰港用モーター（850IP）を有し，6ノットで航海可能。
+Reactor, Roger S.Boyd&others,BMI 1269.
+(ü）蒸気発生器や冷却水ポンプの力量に余浴を持たせ，重要な所は二重系統になっている。
+(i）イオン交換塔その他プラントを汚染する恐れのあるものは分離し得る。
+(4)格纳容器
+何等かの理由で１次系が破損してもコンテーナは破壊時に流出する１次クーラトンの圧力,あ
+るいは飛散する破片や熔融物内外の温度差などに耐える。
+(5)廃棄物処理
+放射性の固体液体および圧力容器やストレージタンクの上部に集まる非凝縮性ガスは船外に放
+出しないで適当な機会に岸壁で遮蔽された容器に移す。
+コンテーナ内の放射能化した空気は安全な場合に限り，洋上でレ一ダーマストより放出する。
+（6）海
+難
+-92-
+-93-

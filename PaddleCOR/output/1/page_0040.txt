@@ -1,0 +1,88 @@
+次のように予測している。
+Next 10 million
+4,000
+200,000
+第2卷
+Next 20 million
+2,000
+240,000
+"Part D.Design Characterstics and Economic Analysis
+Over 40 million
+1,000
+D-6 Insurance
+5.6 欧州における問題点
+The insurance cost for each nuclear vessel is computed by adding the cost of nuclear
+欧州諸国で陸上原子炉を設置する準備工作としての欧州経済協力機構（OEEC）の条約草案
+liability coverage to the insurance costs for each conventional ship.
+(Draft Convention)がある。一国の原子力事故は他国民に被害を与え得るおそれが大きいから,
+Hull and machinery coverage is determined by applying the same as that used for
+賠償請求の訴えは災害発生地の裁判所に集中して受理すべきである旨主張されている。原子力船の
+conventional ships. This is an annual charge amounting to a fixed percentage of total
+事故の被害処理につき，日本の法例第11条（事故発生地の法律に準拠する原則）を条約により排除
+capital costs. Because of the higher costs of nuclear ships,the coverage is more costly.
+すべきであるから，その条約は賠償請求を一括受理すべき特別行政機関乃至特別司法機関の設置を
+Property(Protection?)and indemnity rates are also the same as for conventional ships.
+規定することとなろう。
+This coverage is related to the size and cost of the ship.
+5.7日本が原子力船を所有する場合の問題点
+Nuclear liability insurance is a particularly difficultfactorto evaluate formaritime r-
+逆に日本が原子力商船を保有する場合には，如なる災害補償規定を持たねばならないか？
+actors,because of the large range in value of the surrounding area in which the shipis
+現在迄日本の船主は，商法第690条の委付主義による船主責任制限規定を自己に有利であると主張
+operating. This area could be the open sea,or an industrialized seaport.It is assumedthat
+して来たが，世界の海法理論は，委付主義はボ口船の船主を利する時勢遅れの立場であるとしでい
+a liability coverage of $150,oOo per thermal megawatt is required. This figure is based
+る。その結果船主有限責任条約が1924年に成立し,日本が未加入のまま，さらに1957年の改正と
+on Public Law 256 and AEC Regulation 10 GFR Part 14O,which requires that this cov-
+なった。
+(International Convention Relating to the Limitation of the Liability of Owners of Sea-
+erage be obtained for land-based reactors through private insurance before government
+insurance is made available.
+going Ships, 1957)
+The premiums charged for this insurance are taken from published rates of the Nuc-
+船主責任の制限の条約による統一は,金額責任主義（74Perton但し加害船舶の総屯数の1屯
+に付）と定めたものである。従来英国の船主責任保険市場の付保険金額もPerton方式を原則と
+lear Energy Liability Insurance Association.*
+*Atomic Industry Reporter, News and Analysis,3:108, April 3, 1957 (Bureau of
+していたようである。
+米国は日本とは別の理由により，この船主有限責任条約に未加入である。
+National Affairs,Washington, D.C.)
+$60Pertonの金額責任と残存船価との何れか大きいほうに制限を認める国内法があるようで
+Table D-XXXiiI indicates the premiums used, which are based on the highest poss-
+ある。
+ible rates that can be applied to central station nuclear power plants. These correspond
+将来，日本も米国もこの船主有限責任条約に加入すれば，原子力船の外国就航はそれだけで解決
+to location of a reactor in a high-value agricultural area. While these rates may be
+するであろうか?
+different from thosethateventually willbe set formarinereactors,they were selectdto
+サバナ号は約10,000屯の船であり,この条約による船主の責任の最高額は 74×10,00=
+be conservative,since they represent the highest rates that have yet been assigned for
+740,000（邦貨７億4千万円）である。この金額では原子力船の被害救済額として不足であろう。
+reactor installations.
+(注）1957年の英国ウィンズケール原子炉事故は人ロの極めてまばらな地域で起ったが,その際の
+D.-51
+Table D-XXXIII
+牛乳の被害に対する補償（国有原子炉であるから国家補償）だけで 70,000（7千万円）に達
+Annual Nuclear Liability Premiums.
+した。原子力船は大洋航行以外に港口，港内における万一の事故に備えねばなるまい。
+Annual
+Premium per
+Maximum
+したがって1957年の船主有限責任条約はっ原子力船主の有限責任規定に関る別章を備える
+Amount of Couerage
+One Million Dolcars
+Total Annual Premium
+か,または独立した原子力船責任条約が締結されることとなろう。ウィ一ンの国際原子力機関は独
+First million
+$40,000
+$ 40,000
+立した条約草案を1960年に作成したい意向である。
+Next 4 million
+20,000
+40,000
+1957年の船主有限責任条約が規定する74Prton金額責任主義と雖も日本の条約加入に際し
+Next 5 million
+8,000
+100,000
+-69-
+68

@@ -1,0 +1,192 @@
+1.6 遮蔽および放射線レべル
+サバナ号は貨客船であるため遮蔽或は被曝線量についても，乗客と乗組員と別個に考える必要が
+TOP OF MOUSE
+ECA
+NAV BRIDQE DK.
+ある。
+SEEEEE
+OFFICERS
+BOAT OK.
+AENTTEE
+SNNOTNYA
+STAIR
+MAIN LOBBY
+LMACH
+PRON DK
+MOSPITAL AREA
+AC
+NOON ONINNIO
+MAIN GALLEY
+乗客については，年間の平均出力を50MWとして積算被曝量を0.5rm/yr以下におさえるものと
+DECK
+MACNY
+9ON C7OH
+SON O7OH
+c
+DECK
+LON GTOH
+SPACE
+REACTOR
+ON QTON
+EON OION
+HOLO NO.2
+PEYAS
+ION OTON
+した。勿論これは最悪の値であり乗客が船上で動くとと,距離効果などを考えるとある特定の
+D DEEK
+SHAFT
+1377
+LBP
+TANK TOD
+-0-.54S
+乗客の受ける線量はほば0.15remとなる。
+DV
+INBOARD
+PROFILE
+一方乗組員については，乗組員が自由に近接しうる区域では年間積算線量は５rm以下でなけ
+PROM OK
+010 20304050 00
+RS SEREESE
+PASS
+SCALE
+PASS
+PASSENGER S.R
+O.S REMIYEAR
+PASS
+SRTAEA E
+ればならない。Zれは U.S.National Research Council および National Comittee on Radia-
+A DK
+CR EAE
+STEWARD
+SREM/YR
+PASS
+tion Protectionに依って勧告された値である。
+PASS
+COCR MESS
+SREN/YR
+B oK
+実際問題として乗組員がこれだけの線量を受けることはないと思われるが，放射線レべルの高い
+HEONESSI
+SHIPS LAUNDRY
+PASS.
+BAGGADE(F)
+0
+LINEN
+BUTCHER SHOP
+/HEAE
+SREM/YR
+機関室やコンテ一ナ内に入る必要のある機関士についても年間の被曝線量が5sm/yr以下でなけ
+C DK
+REFRIG-STORES
+FA5S
+DRY STORES
+SREM/YR
+PASS
+SREM/YR
+ればならない。
+STABILIZER (F)
+D oK
+STABILIZER(F)
+REFRIG STORES
+PASS
+PASS
+REFRIG STORES
+船内各位置の放射線量設計値を第1.4表に示す。この表の第3項目は，夫々の区劃の立入制限の
+SREM/YR.
+.
+NORMAL POWER
+5REM/YR
+NORMAL POWER
+STABILIZER(F)
+14'9°FLAT
+度合が示されている。サバナ号の一次遮蔽は圧力容器周辺に３吋の鉛と，33吋の厚さの軽水タンク
+DRY STORES
+STABILIZER (F)
+SREM/YR
+PASS
+ORY STORES
+FEETAHAON
+S REM/YR
+SPEI/rR
+SAEM/YA
+NORMAL POWER
+第1.4表船内各位置の放射線量設計值
+SAS TAT
+H₂O
+0
+SECTION THROUGH CENTER OF REACTOR CNTAINMENT VESSEL
+場
+所運転条件
+接近の程度
+計画照射率
+SCALE
+ITIT
+20
+無制限
+10mrem/wk
+0246810
+乘客居住区
+通常運転時
+CE
+第1.13図アイツドーズ曲線
+乘組員
+乘客の立入禁止
+500mrem/yr
+"
+2次シールド外部
+100mrem/wk
+又コンテーナ下部は厚さ4呎のコンクリートの壁によって周囲をかこわれ,コンテーナの下方には
+"
+"
+コンテーナ内部
+全然不能
+深さ５呎の海水バラストおよび清水タンクがある。
+炉停止後30分以上
+制限付
+200mem/Hr
+以上の計画によるアイソド一ズ曲線を第1.13図に示す。
+"
+お現在1.25Mev以上のガンマ線に対するbuild-upfactor が実験的に正確に求められい
+原子炉附近
+"
+10日以上
+"
+放射線管理官立合下
+ないので遮蔽の計画はかなり余裕を持って設計されている。
+貨物舱
+1割出力時
+限
+10mrem/wk
+猫
+1.7 原子炉の補修と燃料交換
+オ交换器附近
+炉停止後数時間
+制
+限
+50mrem/Hr
+航海中各部の事故を予防するため４力月おき位に計器，電線，弁等を行う必要がある。一次系
+とによって構成され，乙れによってその放射線の強さを一次系パイプ其の他と同程度の価とした。
+のポンプ，弁計器，電線などはコンテーナのハッチから必要の場合には交換することが出来るが,
+この場合計画出力時において,コンテ一ナ内の放射線量の割合は次のようになる。
+原子炉容器，加圧器および蒸気発生器などは交換出来ない。
+原子炉炉心からの中性子
+約10%
+しかし蒸気発生器の管板の修理，漏洩管のプラグなどは可能である。
+原子炉炉心からのガンマ線
+10%
+炉心の燃料交換は交換用のクレ一ンや使用済燃料を運搬する装置を備えたドックで行う。燃料交
+一次冷却系からのガンマ線
+80%
+換時には先ずコンテーナ・ハッチを開けた後,直径約12呎の「交換用スリーブ」を原子炉頭部のそ
+またこの一次遮蔽は，原子炉停止後30分でコンテナ一内の放射線レべルを200myにするために
+ばにおろし，制御棒を駆動装置から切離して原子炉蓋を取外してから，水で満す。ついで炉心部の
+充分な厚さである。二次遮蔽は，一次遮蔽から出る中性子およびガンマ一線と一次冷却系中のクー
+保持機構，上部グリッドを取はずし，各燃料要素を適当に遮蔽したキスクを用いて引出す。最後
+ラントが(10(n.p)16N）反応によっ発生する。主として6.1Mvのガンマ線を遮蔽しなけれ
+に制御棒を取替えた後新燃料を格納する。
+ばならない
+1.8廃棄物処理
+コンテーナ上部には6¹/₂吋の鉛の層と同じく6/吋のポリエチレン層とが重ねられている。
+通常の航海時には廃棄物タンク内のガスを放出する以外，放射性廃棄物の放棄は行わない。ただ
+-06-
+-91-

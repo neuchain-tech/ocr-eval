@@ -1,0 +1,89 @@
+域において汚染が発生した場合は,黒潮支流によって紀伊水道東岸沿いに同水道に流入
+5. G.E. Co.,“Safety Analysis (Preliminary Hazards Summary Report for the Dres-
+するおそれが多分にある。また,黒潮本流に乗って東方へ流れ去ったとしても野島埼ま
+den Nuclear Power Station, Section 1)” GEAP-1044 (May 1, 1957)
+での間の本州南岸および伊豆七島沿岸に漂着するおそれがある。
+6.
+U. S.A.E. C.Bettis Plant, W.H. Co.,"PWR Hazards Summary Report Contr-
+b．紀伊水道の東岸寄りの海域において汚染が発生した場合は,同水道の環流によって北
+act AT-I-I-GEN-14
+上し，潮流の作用により大阪湾に流入するおそれがある。同水道の中央より西寄りで発
+7.
+U. S. A.E. C.Betis Plant, W.H. Co.,“Hazards to the Area Surrounding PWR
+生した場合は，環流により南下するが，この際四国東岸に漂着するおそれがある。
+due to Atomospheric Diffusion of Radioactivity”Contract AT-I-I-GEN-14
+C．友ケ島水道附近において汚染が発生した場合は，落潮時の場合には潮流の作用によっ
+8.B.P.Leonard:Hazards Associated with Fission Product Release2ndGeneaConf
+て南下しっ紀伊水道の環流により南方へ運び去られるものと思われるが，まれには次の
+-1958 P/428 USA
+涨潮流によって湾内に入るものもある。漲潮時の場合には北流によって湾内に入って北
+9．日本原子力産業会議：“放射性廃棄物の海洋投棄'GeneralConsiderationsConcerningThe
+上するうち，時計廻りに流れる湾内の主環流の影響を受けて主として湾の南東岸に漂着
+Ocean as a Receptacle for Artificially Radioactive Materials，原子力资料No.25(33.9)
+するものと考えられるが，まれには淡路島東岸の反流によって同島南東岸に漂着するも
+10.
+日本原子力産業会議：“放射線の生物学的影響（全米ア力デミ一報告書全訳)”原子力資料
+のもある。
+No.9 (31.10)
+d．大阪湾の中央部で汚染が発生した場合は，潮流は殆んど影響せず,環流によって流動
+1l,
+原子動力研究会：“力ナダNRX原子炉の事故”（1952.12.12)”安特研・12(1958.1)
+12.
+日本原子力産業会議：“ウインズケール第1号炉の事故’Accidentat Windscale No,1
+し，湾の周囲の広汎な区域に漂着する可能性がある。
+Pileon 10thOctober，1957,原子力资料No.20(33.1)
+e．神戸沖において汚染が発生した場合は，環流も潮流も微弱であるので，あまり移動し
+13.
+寺島博愛：“海難の処置と処理”海洋会(34.4.30.)
+ないものと思われる。
+f．大阪湾についても東京湾同様湾内の海水が紀伊水道方面の海水とすつかり入れかわる
+14.
+B& W:"Nuclear Merchant Ship Reactor Critical Experiment Hazards Evaluation"
+ということは殆んど考えられず,またっ明石瀬戸を経て瀬戸内海の水と入れかわること
+Final Report BAW-1023 (Oct,1957)
+15.
+C. H. Whipple :Health Physics Instrumentation for a Power Reactor Philadel-
+も比較的少いと考えられる。
+以上本邦南東岸，東京湾および大阪湾の海潮流とこれによる汚染海水の移動について検討した
+phia No.34
+が，これは表面附近の汚染海水の移動について，海潮流の観測結果から極めて単純に推定したもの
+16.
+日本原子力産業会議“放射線取扱技術者講習会テキスト”No.1,No.4(34.3)
+であって,実際には，風による表面流の影響，汚染深度による海水の流れの相異，拡散の問題等に
+17.
+都築正男編“放射線の影響，国際連合科学委員会報告書1958年”日本学術振興会（1958.
+ついても考慮しなければならずっまた，これらの観測資料はそれぞれ年月を異にする特定短期間の
+11)
+観測結果であって，海潮流には時期による変動があるから，必ずしも今日または将来の状況が全く
+18.
+志賀四郎：“放射線障害防護用品とその使い方”原子力工業VoL.4No.9P23(1958)
+このとおりであるとはいえないので，さらに詳細な調査研究が必要である。
+19.
+“日本近海海流の概況について”航路告示昭和33年523項，1214項
+20.
+川田健次：岩田憲幸,“相模湾の海潮流について”水路要報第53号44頁(32.7.30)
+21.
+“東京海湾海象観测成果”海象時報第5号（24.3.1)
+参 考  献
+22.
+山田豊彦：“東京湾の潮流”海象時報第4号(24.2.1)
+1. C. Rogers Mc Cullough“The experience in the United States with reactor ope-
+23.
+小野弘平：“東京海湾の潮流”水路要報第25号245頁（26.8.1)
+ration andreactor safeguards2nd GenevaConf-1958P/1551
+24.
+西田浩二：“1954年5月における紀伊水道（北半）の海況について”水路要報増刊号第17
+2. C.K.Beck,M.M. Mann and P.A. Morris:“Reactors safety, hazards evaluatin
+号53页（30.12.15）
+and inspection' 2nd Geneva Conf-1958 P/2407
+25.
+関和男：“大阪湾に於ける漂流物の経路に就”海洋学会機関誌海と空第10巻第8号197頁
+3.
+日本原子力産業会議：“原子炉の安全性”TheSafetyofNuclearReactors，原子力資料
+(5.8.15)
+No.2(31.4.)P/853
+U.S. A.E.C.:“Theoretical Possibilities and Consequences of Major Accidents in
+4.
+Large Nuclear Power Plants' Part 1.2.3. USAEC (March 1957)
+55-
+- 54 -
