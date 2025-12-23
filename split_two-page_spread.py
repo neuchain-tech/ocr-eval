@@ -19,8 +19,6 @@ from docling.datamodel.pipeline_options import (
     TableFormerMode,
 )
 
-from download_onnx import ensure_models
-
 try:
     from rapidocr.utils import parse_parameters as _rapid_parse
     from rapidocr.utils.typings import ModelType, OCRVersion
@@ -38,7 +36,6 @@ try:
     _rapid_parse.ParseParams.update_batch = _safe_update_batch  # type: ignore[assignment]
 except Exception:
     ModelType = OCRVersion = None
-    # rapidocr が無ければ何もしない
     pass
 
 # 幅/高さの比率がこの値以上なら「見開き」とみなす
@@ -90,8 +87,7 @@ def split_spreads_with_pikepdf(
                 out_pdf.pages.append(src_page)
                 continue
 
-            # 見開き → 左右に2分割
-            mb = src_page.MediaBox  # [x0, y0, x1, y1]
+            mb = src_page.MediaBox
             x0, y0, x1, y1 = map(float, mb)
             width = x1 - x0
 
@@ -101,19 +97,14 @@ def split_spreads_with_pikepdf(
             # 用紙全体での背の位置
             split_x = x0 + width * split_ratio
 
-            # --- 半ページの元座標（切り出し範囲）を決める ---
-
             if abs(split_ratio - 0.5) < 1e-6:
-                # ちょうど中央
                 left_x0, left_x1 = x0, split_x
                 right_x0, right_x1 = split_x, x1
-
             elif split_ratio > 0.5:
                 left_x0 = (split_ratio - 0.5) * 2.0 * x1
                 left_x1 = split_x
                 right_x0, right_x1 = split_x, x1
-
-            else:  # split_ratio < 0.5
+            else:
                 left_x0, left_x1 = x0, split_x
                 right_x0 = split_x
                 right_x1 = x1 - (0.5 - split_ratio) * 2.0 * x1
@@ -141,7 +132,7 @@ def split_spreads_with_pikepdf(
 
 def ocr_with_docling(
     input_source: str | Path,
-    backend: str = "myoption",
+    backend: str = "rapidocr",
     force_full_page: bool = True,
     use_layout: bool = True,
     metadata_path: Path | None = None,
@@ -155,8 +146,12 @@ def ocr_with_docling(
         do_ocr=True,
         force_full_page_ocr=force_full_page,
         do_table_structure=use_layout,
-        images_scale=3.0,
+        images_scale=4.0,
     )
+
+    if use_layout:
+        opts.do_table_structure = True
+        opts.table_structure_options.mode = TableFormerMode.ACCURATE
 
     if backend == "rapidocr":
         opts.ocr_options = RapidOcrOptions()
@@ -164,56 +159,6 @@ def ocr_with_docling(
         opts.ocr_options = EasyOcrOptions()
     elif backend == "tesseract":
         opts.ocr_options = TesseractOcrOptions()
-    elif backend == "myoption":
-        if use_layout:
-        # テーブル解析を ACCURATE モードに（速さより精度優先）
-            opts.do_table_structure = True
-            opts.table_structure_options.mode = TableFormerMode.ACCURATE
-
-        model_paths = ensure_models()
-
-        det_model_path = model_paths["det"]
-        rec_model_path = model_paths["rec"]
-        cls_model_path = model_paths["cls"]
-        dict_path = model_paths["dict"]
-    
-        # 「高精度 RapidOCR + GPU」モード
-        # det/rec/cls のパスは手元に置いた ONNX モデルに合わせてください。
-        rapidocr_params = {
-            # GPU 使用
-            "EngineConfig.onnxruntime.use_cuda": True,
-            "EngineConfig.onnxruntime.cuda_ep_cfg.device_id": 0,
-
-            # ▼ 精度寄りの推奨パラメータ例（RapidOCR 側のドキュメントより）
-            "Det.limit_side_len": 2048,       # 検出器に渡す画像の一辺の上限。小さいと細かい文字を落としやすい
-            "Det.unclip_ratio": 1.4,          # テキストボックス拡張率
-
-            # 必要に応じてスレッド数なども調整
-            "EngineConfig.onnxruntime.intra_op_num_threads": 4,
-            "Rec.rec_batch_num": 4,
-            "Rec.rec_keys_path": str(dict_path),
-            "Rec.rec_img_shape":    [3, 80, 160],   # 旧系で有効なことが多い
-            "Rec.rec_image_shape":  [3, 80, 160],   # 新系で有効なことが多い（別名）
-            "Rec.rec_height":       80,             # 併用指定で確実化
-            "Rec.rec_width":        160,
-        }
-
-        if OCRVersion is not None:
-            rapidocr_params["Det.ocr_version"] = OCRVersion.PPOCRV5
-            rapidocr_params["Rec.ocr_version"] = OCRVersion.PPOCRV5
-
-        if ModelType is not None:
-            rapidocr_params["Det.model_type"] = ModelType.MOBILE
-            rapidocr_params["Rec.model_type"] = ModelType.MOBILE
-
-        opts.ocr_options = RapidOcrOptions(
-            det_model_path=str(det_model_path),
-            rec_model_path=str(rec_model_path),
-            cls_model_path=str(cls_model_path),
-            rec_keys_path=str(dict_path),   # 文字辞書ファイル
-            lang=["ja", "en"],              # 日本語＋英語を想定
-            rapidocr_params=rapidocr_params,
-        )
     else:
         raise ValueError(f"unknown backend: {backend}")
 
@@ -237,25 +182,30 @@ def ocr_with_docling(
             encoding="utf-8",
         )
 
-    # テキスト（Markdown）は常に返す
     return doc.export_to_markdown()
 
 
-
 def main():
-    # ===== 設定部 =====
     input_pdf = "1.pdf"
-    work_dir = Path("output")
+    
+    backend = "rapidocr"
+    # backend = "easyocr"
+    # backend = "tesseract"
 
     base_name = os.path.splitext(input_pdf)[0]
+
+    # ▼保存先を output/{backend}/ に変更
+    work_dir = Path("output") / backend
+    work_dir.mkdir(parents=True, exist_ok=True)
+
     output_txt = work_dir / f"{base_name}_ocr.txt"
     split_pdf = work_dir / f"{base_name}_split.pdf"
     meta_json = work_dir / f"{base_name}_split_meta.json"
 
-    # 確認用 (実際にはOCR処理などで使われます)
     print(f"入力PDF: {input_pdf}")
+    print(f"backend: {backend}")
+    print(f"出力フォルダ: {work_dir}")
     print(f"出力テキスト: {output_txt}")
-    print(f"OCRテキスト出力: {output_txt}")
     if SAVE_DOC_METADATA:
         print(f"メタデータJSON出力: {meta_json}")
 
@@ -277,13 +227,12 @@ def main():
     # ===== Docling で OCR =====
     full_text = ocr_with_docling(
         split_pdf,
-        backend="rapidocr",        # 必要に応じて "easyocr" / "tesseract" など
+        backend=backend,        # 必要に応じて "easyocr" / "tesseract" など
         force_full_page=True,
         use_layout=True,
         metadata_path=meta_json,   # SAVE_DOC_METADATA=False の場合は実質無視される
     )
 
-    # ===== テキスト保存（常に出力） =====
     output_txt.write_text(full_text, encoding="utf-8")
 
 
