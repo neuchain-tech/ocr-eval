@@ -42,6 +42,8 @@ except Exception:
 SPREAD_RATIO_THRESHOLD = 1.2
 SAVE_DOC_METADATA = False
 
+TARGET_PAGES = {6, 10, 15}
+
 
 def is_spread_page(page: fitz.Page, threshold: float = SPREAD_RATIO_THRESHOLD) -> bool:
     """
@@ -77,9 +79,9 @@ def split_spreads_with_pikepdf(
         out_pdf = pikepdf.Pdf.new()
 
         for idx, src_page in enumerate(src_pdf.pages):
-            if idx >= 1000:
+            if TARGET_PAGES is not None and idx not in TARGET_PAGES:
                 continue
-
+            
             page_fitz = doc_fitz[idx]
 
             # 見開きでなければそのままコピー
@@ -189,7 +191,7 @@ def main():
     input_pdf = "1.pdf"
     
     backend = "rapidocr"
-    # backend = "easyocr"
+    backend = "easyocr"
     # backend = "tesseract"
 
     base_name = os.path.splitext(input_pdf)[0]
@@ -198,9 +200,9 @@ def main():
     work_dir = Path("output") / backend
     work_dir.mkdir(parents=True, exist_ok=True)
 
-    output_txt = work_dir / f"{base_name}_ocr.txt"
-    split_pdf = work_dir / f"{base_name}_split.pdf"
-    meta_json = work_dir / f"{base_name}_split_meta.json"
+    output_txt = work_dir / f"{base_name}_ocr_6,10,15.txt"
+    split_pdf = work_dir / f"{base_name}_split_6,10,15.pdf"
+    meta_json = work_dir / f"{base_name}_split_meta_6,10,15.json"
 
     print(f"入力PDF: {input_pdf}")
     print(f"backend: {backend}")
