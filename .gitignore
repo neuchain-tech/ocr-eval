@@ -1,7 +1,5 @@
-/models/
 /pymupdf4llm_venv/
 /__pycache__/
-/chandra/
 
 1.pdf
 *.png
